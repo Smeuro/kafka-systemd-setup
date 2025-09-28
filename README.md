@@ -12,3 +12,14 @@ and how to create simple **Producer** and **Consumer** apps in Python.
 Install dependencies:
 ```bash
 pip install -r requirements.txt
+```
+## 🚀 Run
+1. Start Kafka & ZooKeeper (see setup guide).
+2. Run producer:
+```bash
+python3 producer/SimpleProducer.py
+```
+3. Run consumer
+```bash
+python3 consumer/SimpleConsumer.py
+```
